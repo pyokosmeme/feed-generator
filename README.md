@@ -53,9 +53,9 @@ ATProto Firehose --> Indexer --> SQLite DB --> Feed Algorithm --> getFeedSkeleto
 - Web dashboard for adjusting keyword lists and tenet mappings.
 
 ## Implementation Checklist
-- [ ] Define keyword lists and tenet mappings in config.
-- [ ] Implement firehose indexer and SQLite schema.
-- [ ] Add scoring logic with show more/less multipliers.
-- [ ] Expose `getFeedSkeleton` and preference endpoints.
+- [x] Define keyword lists and tenet mappings in config.
+- [x] Implement firehose indexer and SQLite schema.
+- [x] Add scoring logic with show more/less multipliers.
+- [x] Expose `getFeedSkeleton` and preference endpoints.
 - [ ] Register the feed with DID and publish using `scripts/publishFeedGen.ts`.
 
